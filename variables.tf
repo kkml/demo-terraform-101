@@ -1,6 +1,7 @@
 
 variable "identity" {
   description = "A unique name for your resources"
+  default = "kbakml"
 }
 
 variable "ami" {
